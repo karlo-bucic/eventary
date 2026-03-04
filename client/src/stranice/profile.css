@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+/* ------------------------------------------------------------------------------------ */
+
+.containerProfile {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.lijevastranaProfile {
+    width: 40%;
+    height: 100%;
+    background-color: var(--profil-boja);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desnastranaProfile {
+    width: 60%;
+    height: 100%;
+    background-color: #f4eada;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.profileeForm {
+    margin-left: 125px;
+    width: 60%;
+    gap: 30px;
+    color: #696161;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 40px;
+}
+
+.profileP {
+    color: #616161;
+    background-color: #ffffff;
+    border-radius: 100%;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 140px;
+    margin-right: 5px;
+    width: 375px;
+    height: 375px;
+    text-align: center;
+    line-height: 385px;
+    box-shadow: 12px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.inputprofile {
+    height: 70px;
+    width: 100%;
+    font-weight: 1000;
+    font-size: 30px;
+    color: #b3b1b1;
+    text-indent: 20px;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.3);
+    border-style: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.inputprofileBtn {
+    height: 70px;
+    width: 100%;
+    color: #b3b1b1;
+    background-color: #616161;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    margin-top: 20px;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.3);
+    border-style: none;
+}
+
+    .inputprofileBtn:active {
+        transform: scale(0.98);
+    }
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: #b3b1b1;
+}
+
+.profileForm {
+    gap: 20px;
+    font-size: 25px;
+}
+
+.labelprofile {
+    font-size: 40px;
+}
+
+.selectProfile {
+    font-style: oblique;
+    font-weight: 1000;
+    font-size: 30px;
+    color: #b3b1b1;
+    text-indent: 20px;
+}
+
+.joinedProfile {
+    color: var(--main-boja);
+    font-size: 35px;
+    max-width: 800px;
+    text-align: left;
+    margin-left: 125px;
+    margin-top: 80px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+}

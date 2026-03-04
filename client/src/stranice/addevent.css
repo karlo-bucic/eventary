@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+span {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #494949;
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+.add-event-scroll-container {
+    width: 100%;
+    min-height: 100%;
+    background-color: #f4eada;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+}
+
+.add-event-wide-wrapper {
+    width: 90%;
+    max-width: 750px;
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+.add-event-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #494949;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.image-upload-grid {
+    display: flex;
+    gap: 25px;
+    height: 625px;
+    margin-bottom: 50px;
+}
+
+.big-image-box {
+    width: 50%;
+    background: white;
+    border: 3px dashed #bbb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.small-images-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.small-image-box {
+    flex: 1;
+    background: white;
+    border: 3px dashed #bbb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    justify-content: center;
+}
+
+    .big-image-box img, .small-image-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        overflow: hidden;
+        position: relative;
+        display: block;
+    }
+
+/* ------------------------------------------------------------------------------------ */
+
+.event-details-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+    .event-details-form label {
+        color: #494949;
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+
+    .event-details-form input {
+        height: 65px;
+        padding: 0 20px;
+        border: 1px solid #999;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 25px;
+        color: #756d6d;
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 400;
+        box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3);
+        border-style: none;
+    }
+
+/* ------------------------------------------------------------------------------------ */
+
+.full-width-buttons {
+    display: flex;
+    width: 100%;
+    height: 125px;
+    margin-top: 125px;
+}
+
+.btn-potvrdi-full, .btn-odustani-full {
+    flex: 1;
+    border: none;
+    font-size: 55px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+}
+
+    .btn-potvrdi-full:hover {
+        filter: brightness(1.1);
+    }
+
+    .btn-odustani-full:hover {
+        filter: brightness(1.1);
+    }
+
+.btn-potvrdi-full {
+    background-color: var(--tamna-boja);
+}
+
+.btn-odustani-full {
+    background-color: var(--main-boja);
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.dateInput {
+    margin-bottom: 18px;
+}

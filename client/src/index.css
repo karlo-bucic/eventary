@@ -1,0 +1,73 @@
+
+:root {
+    --main-boja: #a44d57;
+    --tamna-boja: #742f37;
+    --zlatna-boja: #f4d99d;
+    --profil-boja: #a44d57;
+    --addevent-boja: #a44d57;
+    --back-boja: #f5e8d5;
+}
+
+
+[tema-boja='dusty sea'] {
+    --main-boja: #5a768c;
+    --zlatna-boja: #f4d99d;
+    --tamna-boja: #334552;
+    --profil-boja: #5a768c;
+    --addevent-boja: #5a768c;
+    --back-boja: #f5e8d5;
+}
+
+
+[tema-boja='morning grass'] {
+    --main-boja: #7e8769;
+    --zlatna-boja: #f4d99d;
+    --tamna-boja: #494f3e;
+    --profil-boja: #7e8769;
+    --addevent-boja: #7e8769;
+    --back-boja: #f5e8d5;
+}
+
+
+[tema-boja='lumberjack'] {
+    --main-boja: #715A5A;
+    --zlatna-boja: #f4d99d;
+    --tamna-boja: #3d3636;
+    --profil-boja: #715A5A;
+    --addevent-boja: #715A5A;
+    --back-boja: #f5e8d5;
+}
+
+
+[tema-boja='default'] {
+    --main-boja: #a44d57;
+    --tamna-boja: #612c33;
+    --zlatna-boja: #f4d99d;
+    --profil-boja: #a44d57;
+    --addevent-boja: #a44d57;
+    --back-boja: #f5e8d5;
+}
+
+
+.swal2-popup {
+    font-family: "Archivo Black", sans-serif !important;
+}
+
+.swal2-title {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.swal2-html-container {
+    font-size: 15px;
+}
+
+.swal2-confirm {
+    font-family: "Archivo Black", sans-serif !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.swal2-cancel {
+    font-family: "Archivo Black", sans-serif !important;
+}
