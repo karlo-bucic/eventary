@@ -1,0 +1,1 @@
+A full-stack web application designed for preserving memories from attended events, built with ASP.NET Core Web API, React.js, and PostgreSQL during my 3rd semester at RITEH, as my first project for Riteh Web Team.
